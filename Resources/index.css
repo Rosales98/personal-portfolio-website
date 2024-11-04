@@ -1,0 +1,49 @@
+body {
+    background-color: #F0F5F9;
+    font-size: 1rem;
+}
+
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+a {
+    text-decoration: none;
+}
+/*Nav section */
+.header-fixed {
+    background-color: #52616B;
+    position: fixed;
+    height: 5rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+.nav-items a {
+    display: block;
+    font-size: 14px;
+    position: relative;
+    text-transform: uppercase;
+    color: #F0F5F9;
+}
+
+/*Title & banner */
+
