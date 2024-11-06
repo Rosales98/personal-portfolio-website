@@ -1,16 +1,20 @@
 body {
-    background-color: #F0F5F9;
+    background-color: #C9D6DF;
     font-size: 1rem;
+    color: #1E2022;
+    margin: auto;
 }
 
 section {
-    padding-top: 4rem;
     padding-bottom: 4rem;
+    position: relative;
+    display: block;
 }
 
 a {
     text-decoration: none;
 }
+
 /*Nav section */
 .header-fixed {
     background-color: #52616B;
@@ -19,13 +23,10 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
-}
-
-nav{
+    z-index: 100;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 0;
 }
 
 .nav-items {
@@ -45,5 +46,57 @@ nav{
     color: #F0F5F9;
 }
 
+#logo a {
+    margin: .75rem 1rem;
+    color: #F0F5F9;
+}
+
+
 /*Title & banner */
 
+.banner {
+    background-image: url(https://images.unsplash.com/photo-1709065660495-e32ed476ab09?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    height: 75vh;
+    padding-top: 80px;
+    background-color: #1E2022;
+    background-blend-mode: multiply;
+    
+}
+
+.main-title h1 {
+    margin: 0 auto;
+    position: relative;
+    text-transform: uppercase;
+    padding: 0 22px;
+    text-align: left;
+    display: table;
+    color: #C9D6DF;
+    transform: translateY(100%);
+    font-weight: bold;
+    font-size: 3.25rem;
+}
+
+.main-title h1 span {
+    margin-bottom: 12px;
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #52616B;
+}
+
+.main-title h1 span:last-of-type {
+    padding-top: 10px;
+    text-align: right;
+} 
+
+/*Sections */
+
+.section-header {
+    text-align: center;
+}
+
+/* Projects */
