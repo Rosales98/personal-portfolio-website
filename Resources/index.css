@@ -24,9 +24,22 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 1rem;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color:#fff;
+        background:#333333
+    }
+}
 /*Nav section */
 .header-fixed {
-    background-color: #2e2e2e;
+    background-color: #1a1a1a;
     position: fixed;
     height: 5rem;
     top: 0;
@@ -49,15 +62,19 @@ a {
 
 .nav-items a {
     display: block;
-    font-size: 14px;
+    font-size: .9rem;
     position: relative;
     text-transform: uppercase;
     color: #00b5ad;
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
 }
 
 #logo a {
     margin: .75rem 1rem;
     color: #F0F5F9;
+    font-family: "Playfair Display", serif;
 }
 
 
@@ -71,9 +88,9 @@ a {
     position: relative;
     height: 80vh;
     padding-top: 80px;
-    background-color: #252729;
+    background-color: #36393c;
     background-blend-mode: multiply;
-    
+
 }
 
 .main-title h1 {
@@ -87,25 +104,34 @@ a {
     transform: translateY(150%);
     font-weight: bold;
     font-size: 3.25rem;
+    font-family: "Playfair Display", serif;
 }
 
 .main-title h1 span {
     margin-bottom: 12px;
     display: block;
     font-size: 1.5rem;
-    font-weight: 300;
     color: #00b5ad;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: italic;
 }
 
 .main-title h1 span:last-of-type {
     padding-top: 10px;
     text-align: right;
-} 
+}
 
 /*Sections */
 
 .section-header {
     text-align: center;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    ;
 }
 
 .content {
@@ -126,15 +152,17 @@ a {
 
 .skills img {
     height: 150px;
-    
+
 }
 
-.skill-icon{
+.skill-icon {
     display: flex;
     list-style: none;
     position: relative;
     justify-content: space-evenly;
     left: 0%;
+    text-align: center;
+    font-weight: bold;
 }
 
 ul.skill-icon {
@@ -145,5 +173,10 @@ ul.skill-icon {
 
 /* Projects */
 
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
 
 /* Contact */
