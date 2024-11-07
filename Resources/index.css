@@ -71,7 +71,7 @@ a {
     position: relative;
     height: 80vh;
     padding-top: 80px;
-    background-color: #1E2022;
+    background-color: #252729;
     background-blend-mode: multiply;
     
 }
@@ -122,6 +122,25 @@ a {
     position: relative;
     margin: auto;
     max-width: 45rem;
+}
+
+.skills img {
+    height: 150px;
+    
+}
+
+.skill-icon{
+    display: flex;
+    list-style: none;
+    position: relative;
+    justify-content: space-evenly;
+    left: 0%;
+}
+
+ul.skill-icon {
+    margin: 0%;
+    padding: 0%;
+    top: 50px;
 }
 
 /* Projects */
