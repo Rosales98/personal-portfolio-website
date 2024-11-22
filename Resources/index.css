@@ -3,7 +3,7 @@ html {
 }
 
 * {
-    scroll-padding-top: 5rem;
+    scroll-padding-top: 6rem;
     scrollbar-color: #454a4d #202324;
 }
 
@@ -30,13 +30,14 @@ p {
     font-weight: 400;
     font-style: normal;
 }
-
+/*
 @media (prefers-color-scheme: dark) {
     body {
         color:#fff;
         background:#333333
     }
 }
+    */
 /*Nav section */
 .header-fixed {
     background-color: #1a1a1a;
@@ -86,7 +87,7 @@ p {
     background-repeat: no-repeat;
     background-position: bottom;
     position: relative;
-    height: 80vh;
+    height: 86vh;
     padding-top: 80px;
     background-color: #36393c;
     background-blend-mode: multiply;
@@ -135,7 +136,8 @@ p {
 }
 
 .content {
-    min-height: 80vh;
+    min-height: 84vh;
+    margin: 3rem;
 }
 
 /* About */
@@ -168,7 +170,7 @@ p {
 ul.skill-icon {
     margin: 0%;
     padding: 0%;
-    top: 50px;
+    top: 2rem;
 }
 
 /* Projects */
@@ -176,7 +178,11 @@ ul.skill-icon {
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    justify-content: center;
+}
+
+.project-item img {
+    width: 5rem;
 }
 
 /* Contact */
