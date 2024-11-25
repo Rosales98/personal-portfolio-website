@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Resources/index.css">
+    <link rel="stylesheet" href="./Resources/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -76,14 +76,15 @@
             <div class="projects-grid">
                 <div class="project-item">
                     <a href="https://github.com/Rosales98/stellarexplorerssociety" target="_blank"><img
-                            src="../Assets/images/Stellar_Explorers_Society.jpeg"
+                            src="./Assets/images/Stellar_Explorers_Society.jpeg"
                             alt="Snapshot of project named Stellar Explorers Society"></a>
-                            <p>Project Goal: Built a club group page that will dynamically respond as you adjust the size of your screen.​</p>
+                    <p>Project Goal: Built a club group page that will dynamically respond as you adjust the size of
+                        your screen.​</p>
                 </div>
                 <div class="project-item">
-                    <a href="https://github.com/Rosales98/Zenith-Ventures" target="_blank"><img src="../Assets/images/Screenshot_ZV.png"
-                            alt="Snapshot of project named Zenith Ventures"></a>
-                            <p>Project Goal: Used flexbox to design and build the layout for a company’s homepage.</p>
+                    <a href="https://github.com/Rosales98/Zenith-Ventures" target="_blank"><img
+                            src="./Assets/images/Screenshot_ZV.png" alt="Snapshot of project named Zenith Ventures"></a>
+                    <p>Project Goal: Used flexbox to design and build the layout for a company’s homepage.</p>
                 </div>
             </div>
         </section>
@@ -93,15 +94,15 @@
                 <form action="mailto: claudio.cruzrosales@gmail.com" method="post" enctype="multipart/form-data">
                     <div>
                         <label for="name">Full Name:</label><br>
-                        <input type="text" name="name" aria-required="true"><br>
+                        <input type="text" name="name" required><br>
                     </div>
                     <div>
                         <label for="email">E-mail:</label><br>
-                        <input type="email" name="email" id="email" aria-required="true"><br>
+                        <input type="email" name="email" id="email" required><br>
                     </div>
                     <div>
                         <label for="message">Message:</label><br>
-                        <textarea name="message" id="message" rows="8" aria="aria-required"></textarea><br>
+                        <textarea name="message" id="message" required style="height: 200px;"></textarea><br>
                     </div>
                     <div>
                         <input type="submit" value="Send Message">
@@ -110,12 +111,12 @@
             </div>
         </section>
     </main>
+    <button id="topBtn" style="display: inline-block;" onclick="topfunction()" title="Go to top">Top</button>
     <footer>
         <!--add a copyright notice with current year updating automatically-->
 
         <!--add a button to bring user back to the top of the page-->
-        <button><a href="#">Back to top</a></button>
     </footer>
+    <script src="./Resources/scripts.js"></script>
 </body>
-
 </html>

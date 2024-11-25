@@ -3,7 +3,7 @@ html {
 }
 
 * {
-    scroll-padding-top: 6rem;
+    scroll-padding-top: 5rem;
     scrollbar-color: #454a4d #202324;
 }
 
@@ -191,4 +191,57 @@ ul.skill-icon {
     height: 20rem;
 }
 
+.project-item img:hover {
+    opacity: 0.5;
+}
+
 /* Contact */
+
+form {
+    margin: 0 auto;
+    width: 75%;
+}
+
+input[type=text], input[type=email], textarea {
+    padding: 12px;
+    border: 1px solid #1a1a1a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #00b5ad;
+}
+
+/* button back to top */
+
+#topBtn {
+    background-color: #00b5ad;
+    border: none;
+    bottom: 20px;
+    height: 40px;
+    outline: none;
+    position: fixed;
+    right: 20px;
+    width: 40px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+#topBtn:hover {
+    background-color: #202324;
+    color: #00b5ad;
+}
