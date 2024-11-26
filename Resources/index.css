@@ -173,6 +173,12 @@ ul.skill-icon {
     top: 2rem;
 }
 
+@media only screen and (max-width: 769px){
+    .skills img {
+        width: 80px;
+    }
+}
+
 /* Projects */
 
 .projects-grid {
@@ -193,6 +199,17 @@ ul.skill-icon {
 
 .project-item img:hover {
     opacity: 0.5;
+}
+
+@media only screen and (max-width: 769px) {
+    .projects-grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .project-item {
+        padding: 1rem;
+    }
 }
 
 /* Contact */
