@@ -209,6 +209,11 @@ ul.skill-icon {
 
     .project-item {
         padding: 1rem;
+        width: 250px;
+    }
+
+    .project-item img {
+        height: 15rem;
     }
 }
 
