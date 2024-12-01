@@ -7,7 +7,7 @@ This is my personal portfolio website, designed and developed to showcase my ski
  - **Responsive Design:** Fully optimized for mobile, tablet, and desktop. 
  - **Project Section:** Highlights key projects with descriptions, screenshots, and links to GitHub repositories.
  - **Contact Form:** Users can reach me via the integrated contact form.
- - **Dark/Light Theme:** 
+ - **Dark/Light Theme:** The Website automatically adapts to the users device settings for light or dark mode.
 
 ## Technologies Used
 
